@@ -5,8 +5,8 @@
   "main": "index.js",
   "author": "otap#2130",
   "scripts": {
-    "start": "rimraf dist/ && node dist/Main.js",
-    "build": "tsc"
+    "start": "node dist/Main.js",
+    "build": "rimraf dist/ && tsc"
   },
   "license": "MIT",
   "dependencies": {
